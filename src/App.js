@@ -29,6 +29,7 @@ export default function Portfolio() {
         "home",
         "about",
         "experience",
+        "education",
         "skills",
         "projects",
         "contact",
@@ -184,6 +185,7 @@ export default function Portfolio() {
                 "home",
                 "about",
                 "experience",
+                "education",
                 "skills",
                 "projects",
                 "contact",
@@ -218,6 +220,7 @@ export default function Portfolio() {
                 "home",
                 "about",
                 "experience",
+                "education",
                 "skills",
                 "projects",
                 "contact",
@@ -361,7 +364,7 @@ export default function Portfolio() {
           <div className='relative'>
             <div className='absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-400 via-blue-500 to-purple-600'></div>
 
-            <div className='mb-12 md:flex md:items-center md:justify-end md:w-1/2 md:ml-auto md:pl-12'>
+            <div className='relative mb-12 md:flex md:items-center md:justify-end md:w-1/2 md:ml-auto md:pl-12'>
               <div className='bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700 ml-8 md:ml-0 hover:border-cyan-500 transition-all duration-300 hover-lift'>
                 <div className='absolute left-4 md:left-1/2 w-4 h-4 bg-cyan-400 rounded-full -ml-2 mt-2 animate-pulse'></div>
                 <span className='text-cyan-400 text-sm font-semibold flex items-center gap-2'>
@@ -399,12 +402,28 @@ export default function Portfolio() {
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div className='md:flex md:items-center md:justify-start md:w-1/2 md:pr-12'>
+      {/* Education Section */}
+      <section
+        id='education'
+        className='min-h-screen flex items-center justify-center px-4 py-20'
+      >
+        <div className='max-w-4xl w-full'>
+          <h2 className='text-4xl font-bold mb-12 text-center bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent'>
+            Education
+          </h2>
+          <div className='relative'>
+            <div className='absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 to-purple-600'></div>
+
+            <div className='relative md:flex md:items-center md:justify-start md:w-1/2 md:pr-12'>
               <div className='bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700 ml-8 md:ml-0 hover:border-blue-500 transition-all duration-300 hover-lift'>
                 <div className='absolute left-4 md:left-1/2 w-4 h-4 bg-blue-400 rounded-full -ml-2 mt-2 animate-pulse'></div>
-                <span className='text-blue-400 text-sm font-semibold'>
-                  01/2023 - 05/2024
+                <span className='text-blue-400 text-sm font-semibold flex items-center gap-2'>
+                  <div className='w-2 h-2 bg-blue-400 rounded-full animate-ping'></div>
+                  January 2023 - May 2024
                 </span>
                 <h3 className='text-2xl font-bold mt-2 mb-1 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent'>
                   BSc (Hons) Computing Science
